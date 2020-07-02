@@ -210,6 +210,6 @@ public class HookViewClick {
 
 ### 缺点
 
-- 无法织入第三方的库
+- 无法织入第三方的库（这个可以参考AspectJX，支持aar，jar包 kotlin切入）
 - 由于定义的切点依赖编程语言，目前该方案无法兼容Lambda语法
 - 会有一些兼容性方面的问题，比如：D8、Gradle 4.x等
